@@ -1,0 +1,23 @@
+go:-
+    write('Enter first number: '),
+    read(N1),
+    nl,
+
+    write('Enter second number: '),
+    read(N2),
+    nl,
+
+    write('Enter third number: '),
+    read(N3),
+    nl,
+    allNumber(N1,N2,N3).
+
+allNumber(N1,N2,N3):-
+    ResultMul is N1*N2*N3,
+    ResultAdd is N1+N1+N3,
+    ResultSub is N1-N2,
+    ResultDiv is N1/N2,
+    write('Multiplication Result: '),write(ResultMul),nl,
+    write('Addition Result: '),write(ResultAdd),nl,
+    write('Subtraction Result: '),write(ResultSub),nl,
+    write('Division Result: '),write(ResultDiv),nl.
