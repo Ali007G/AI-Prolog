@@ -21,3 +21,6 @@ allNumber(N1,N2,N3):-
     write('Addition Result: '),write(ResultAdd),nl,
     write('Subtraction Result: '),write(ResultSub),nl,
     write('Division Result: '),write(ResultDiv),nl.
+
+
+% arithmetic operations
